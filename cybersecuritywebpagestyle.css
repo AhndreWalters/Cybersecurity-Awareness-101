@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Verdana, Arial, sans-serif;
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    background: url(cybersecuritybgimg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav#topmenu {
+    background: black;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav#topmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav#topmenu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav#topmenu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+nav#topmenu ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: lightblue;
+    transition: width 0.3s ease-in-out;
+}
+
+nav#topmenu ul li a:hover::after {
+    width: 100%;
+}
+
+.pageicon {
+    width: 75px;
+}
+
+.content {
+    max-width: 70%;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content p a {
+    color: grey;
+    text-decoration: none;
+    transition: color 0.4s ease-out;
+}
+
+.content p a:hover {
+    text-decoration: none;
+    color: lightblue;
+    transition: color 0.3s ease-in-out;
+}
+
+h1 {
+    color: grey;
+}
+
+h2 {
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+li {
+    color: white;
+    line-height: 1.6;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+footer {
+    color: grey;
+}
