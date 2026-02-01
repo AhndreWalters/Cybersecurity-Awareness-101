@@ -36,4 +36,4 @@ This project serves as a practical resource for understanding:
 ## License
 This project is for educational and demonstration purposes showcasing front-end web development capabilities with HTML and CSS.
 
-[© 2025 Ahndre Walters](https://github.com/AhndreWalters/Cybersecurity-Awareness-101/blob/main/LICENSE)
+[© 2025 Ahndre Walters](https://github.com/AhndreWalters/Cybersecurity-Awareness-101/blob/main/LICENSE) · Cybersecurity Awareness Website · TAMCC Web Design Course · College Course Assignment
